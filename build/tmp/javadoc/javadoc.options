@@ -1,0 +1,7 @@
+-classpath 'C:\\Users\\jamie\\IdeaProjects\\TicTacToe\\build\\classes\\java\\main;C:\\Users\\jamie\\IdeaProjects\\TicTacToe\\build\\resources\\main'
+-d 'C:\\Users\\jamie\\IdeaProjects\\TicTacToe\\build\\docs\\javadoc'
+-doctitle 'TicTacToe 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'TicTacToe 1.0-SNAPSHOT API'
+'C:\\Users\\jamie\\IdeaProjects\\TicTacToe\\src\\main\\java\\TicTacToe\\Main.java'
