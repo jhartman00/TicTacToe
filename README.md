@@ -90,7 +90,7 @@ After I finished the project, looking back I would have done things differently.
 
 ## Want more?
 
-Check out my website at https://jamiehartman-com.stackstaging.com/
+Check out my website at https://jamiehartman.tech/
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
