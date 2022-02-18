@@ -1,20 +1,19 @@
 
-# Tic Tac Toe Ai - Easy, Medium, Hard
+# Tic Tac Toe A.I. - Easy, Medium, Hard
 
-In order to learn more about recursion, I decided to build my own Tic Tac Toe Ai.  Sadly, it isn't possible to guarantee a win in Tic Tac Toe, you can however guarantee a tie.
+In order to learn more about recursion, I decided to build my own Tic Tac Toe A.I.  Sadly, it isn't possible to guarantee a win in Tic Tac Toe, you can however guarantee a tie.
 
-This program has 3 different "AI's":  
-- Easy plays the game by picking a random space and filling it in with their mark.
-
-
-- Medium plays the game by winning if it can (two spaces in a row or space in the middle) or by blocking
-the opponent if they are about to win (two spaces in a row or space in the middle).  If neither of these conditions are met
-medium plays in a random available space.  
+This program has 3 different settings:  
+- The easy setting has the computer play the game by picking a random space and filling it in with their mark.
 
 
-- Hard plays the game by picking 1 of the available spaces and simulating every possible game from that point.
-It does this for every spot available and then picks the space that has the most strategic value. It then
-plays their mark in that space.
+- The medium setting has the computer play the game by winning if it is able to (two spaces in a row or space in the middle i.e X_X, XX_, _XX) or by blocking the opponent if they are about to win (two spaces in a row or space in the middle i.e O_O, OO_, _OO). If neither of these conditions are met the medium setting has the computer play in a random available space.
+
+
+- The hard setting plays the game by picking 1 of the available spaces and simulates every possible game from that point. The hard setting does this for every spot available and then picks the space that has the most strategic value. The hard setting then plays its mark in that space.
+
+<p>In order to learn more about recursion, I decided to build my own Tic Tac Toe A.I. with three different levels:</p>
+
 
 ## Authors
 
@@ -27,7 +26,7 @@ https://youtu.be/m4lNCrd34J4
 
 ## Running the Program
 
-1. To try this project for yourself make sure you have Java installed on your computer.  If you don't you can go to https://www.java.com/en/download/ to get it for free!
+1. To try this project for yourself, make sure you have Java installed on your computer.  If you don't have Java, you can go to https://www.java.com/en/download/ to get it for free.
     - Windows: https://www.youtube.com/watch?v=IJ-PJbvJBGs
     - Mac: https://www.youtube.com/watch?v=pxi3iIy4F5A
 2. Clone the directory or download the zip file to a location of your choosing.
@@ -37,12 +36,13 @@ https://youtu.be/m4lNCrd34J4
 
 ## Once the program is running
 
-The program has 4 different modes: easy, medium, hard, and user
+The program has 4 different modes: "easy", "medium", "hard", and "user"
 
 When running the main.java file you will be prompted for an input
 
-To start input: start user1 user2
+To start the game input into the console: start user1 user2
 
+start is just the command to start the program
 user1 can be any one of the 4 modes
 user2 can be any one of the 4 modes
 
@@ -53,7 +53,7 @@ eg.
 - start user user: Two users no AI
 - etc.
 
-If you selected user as one of the options you will have to input the space you want when it is your turn:
+If you selected user as one of the options, you will have to input the space you want when it is your turn:
 - The board is based on a grid system where the rows and columns are numbered 1 through 3
 - To go in the top left space you would enter "1 1" with no quotes. 
   - The first number corresponds to the row and the second number corresponds to the column.
@@ -71,7 +71,7 @@ If you selected user as one of the options you will have to input the space you 
 ## A few things to note
 
 1. As stated before, it is impossible to guarantee a win in Tic Tac Toe.  If you tie with the hard AI congrats!
-2. There is one improvement I thought of after completing the project and that would be to record the recursion depth of the hard AI and have that factor into the move it chooses.  At the moment the hard AI works however it goes for any win condition.  In recording the recursion depth and having that factor into the move choice the hard algorithm would go for the fastest win condition instead of any win condition.
+2. There is one improvement I thought of after completing the project and that would be to record the recursion depth of the hard AI and have that factor into the move it chooses.  At the moment the hard AI works. However, it goes for "any" win condition.  In recording the recursion depth and having that factor into the move choice, the hard algorithm would go for the fastest win condition instead of any win condition.
 
 ## FAQ
 
@@ -84,9 +84,9 @@ Feel free to email me at jamiehartman00@gmail.com or jhartman1@tulane.edu, and I
 
 ## Lessons Learned
 
-This was an interesting project.  I learned a lot about how recursion works in general as well as how to apply recursion to different situations.  I learned how bases cases work in recursion and finally how to troubleshoot a recursive program. 
+This was an interesting project.  I learned a lot about how recursion works in general as well as how to apply recursion to different situations.  I learned how base cases work in recursion and finally how to troubleshoot a recursive program. 
 
-After I finished the project, looking back I would have done things differently.  For starters having the tic-tac-toe board stored in a dictionary overcomplicated the program.  If I were to redo the program I would store the board in an array.  I also would split the program up with 2 classes: board and player.  This would greatly increase the scalability of the project as well as the readability of the project.
+After I finished the project, looking back, I would have done things differently.  For starters, having the tic-tac-toe board stored in a dictionary overcomplicated the program.  If I were to redo the program I would store the board in an array.  I also would split the program up with 2 classes: board and player.  This would greatly increase the scalability of the project as well as the readability of the project.
 
 ## Want more?
 
